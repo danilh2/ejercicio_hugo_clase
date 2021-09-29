@@ -6,7 +6,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Tags &middot; Primeros Pasos</title>
+		<title>Resultados de búsqueda &middot; Primeros Pasos</title>
 
 		
 		<link rel="stylesheet" href="/ejercicio_hugo_clase/css/style.css">
@@ -18,7 +18,7 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="/ejercicio_hugo_clase/images/apple-touch-icon.png">
 
 		
-		<link href="/ejercicio_hugo_clase/tags/index.xml" rel="alternate" type="application/rss+xml" title="Primeros Pasos" />
+		<link href="" rel="alternate" type="application/rss+xml" title="Primeros Pasos" />
 	</head>
 
     <body>
@@ -26,7 +26,7 @@
 			<div class="nav-container">
 				<a href="/ejercicio_hugo_clase/">
 					
-						<h1 class="nav-title">Primeros Pasos</h1>
+						<h2 class="nav-title">Primeros Pasos</h2>
 					
 				</a>
 				<ul>
@@ -61,21 +61,30 @@
 		</nav>
 
         
-<main>
-    <h1>Tags</h1>
-	<div class="catalogue">
-        <ul></ul>
-	</div>
-	
-	<div class="pagination"><span>1</span>
-	</div>
-</main>
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" >
+    <form action="http://localhost/ejercicio_hugo_clase/buscar">
+      <input id="search-query" name="s"/>
+    </form>
+    <div id="search-results">
+     <h3>Páginas</h3>
+    </div>
+  </div>
+</section>
 
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
 
         		<footer>
 			
 			<span>
-			&copy; <time datetime="2021-09-29 10:53:36.5262107 &#43;0200 CEST m=&#43;0.105155101">2021</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			&copy; <time datetime="2021-09-29 10:53:36.5141206 &#43;0200 CEST m=&#43;0.093065001">2021</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
 			</span>
 		</footer>
 

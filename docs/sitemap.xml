@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/pelicula/la_jungla_de_cristal/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/pelicula/la_jungla_de_cristal/</loc>
     <lastmod>2021-09-27T09:36:31+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/pelicula/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/pelicula/</loc>
     <lastmod>2021-09-27T09:36:31+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/</loc>
     <lastmod>2021-09-27T09:36:31+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/contacto/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/contacto/</loc>
     <lastmod>2021-09-21T09:58:21+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/novedades/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/novedades/</loc>
     <lastmod>2021-09-21T09:58:21+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/categories/</loc>
   </url><url>
-    <loc>http://example.org/search/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/buscar/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://localhost/ejercicio_hugo_clase/tags/</loc>
   </url>
 </urlset>

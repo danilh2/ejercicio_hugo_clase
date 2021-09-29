@@ -4,7 +4,7 @@ title = 'Primeros Pasos'
 theme = 'tale'
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "JSON"]
 
 [menu]
   [[menu.main]]

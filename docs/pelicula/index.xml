@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peliculae on Primeros Pasos</title>
-    <link>http://example.org/pelicula/</link>
+    <link>http://localhost/ejercicio_hugo_clase/pelicula/</link>
     <description>Recent content in Peliculae on Primeros Pasos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 27 Sep 2021 09:36:31 +0200</lastBuildDate><atom:link href="http://example.org/pelicula/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Sep 2021 09:36:31 +0200</lastBuildDate><atom:link href="http://localhost/ejercicio_hugo_clase/pelicula/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La Jungla De Cristal</title>
-      <link>http://example.org/pelicula/la_jungla_de_cristal/</link>
+      <link>http://localhost/ejercicio_hugo_clase/pelicula/la_jungla_de_cristal/</link>
       <pubDate>Mon, 27 Sep 2021 09:36:31 +0200</pubDate>
       
-      <guid>http://example.org/pelicula/la_jungla_de_cristal/</guid>
+      <guid>http://localhost/ejercicio_hugo_clase/pelicula/la_jungla_de_cristal/</guid>
       <description>La película se desarrolla en&amp;hellip;</description>
     </item>
     
