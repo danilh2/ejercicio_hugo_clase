@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<main>
+	<div class="post">
+		{{ partial "single/post-info.html" . }}
+		{{ partial "single/title.html" . }}
+
+		{{ partial "single/header.html" . }}
+
+		{{ .Content }}
+
+		{{ partial "single/footer.html" . }}
+	</div>
+
+	<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="mailto:lobera2001zgz@gmail.com{form_id}" method="get">
+	<fieldset id="fs-frm-inputs">
+		<label for="full-name">Nombre completo</label>
+		<input type="text" name="name" id="full-name" placeholder="Nombre y Apellidos" required="" size="30"><br/>
+		<label for="email-address">Email</label>
+		<input type="email" name="_replyto" id="email-address" placeholder="email@dominio.com" required="" size="45"><br/>
+		<label for="message">Comentarios</label><br/>
+		<textarea rows="4" cols="55" name="message" id="message" placeholder="Deje aquí sus comentarios." required=""></textarea>
+		<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+	</fieldset>
+	<input type="submit" value="Enviar">
+</form>
+
+	<div class="pagination">
+		{{- if .PrevPage }}
+		<a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+		{{- end }}
+		{{- if .NextPage }}
+		<a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+		{{- end }}
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+{{ end }}

@@ -1,0 +1,27 @@
+baseURL = 'http://example.org'
+languageCode = 'es-es'
+title = 'Primeros Pasos'
+theme = 'tale'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+	identifier = "contacto"
+	name = "Contacto"
+	title = "Contacto"
+	url = "/contacto/"
+	weight = 4
+  [[menu.main]]
+	identifier = "posts"
+	name = "Posts"
+	title = "Posts"
+	url = "/posts/"
+	weight = 3
+[[menu.main]]
+	identifier = "novedades"
+	name = "Novedades"
+	title = "Novedades"
+	url = "/novedades/"
+	weight = 2
